@@ -29,7 +29,7 @@ ArtfullyApp::Application.configure do
     :domain         => ENV['SENDGRID_DOMAIN']
   }
 
-  config.action_mailer.default_url_options = { :host => 'localhost:5000' }
+  config.action_mailer.default_url_options = { :host => 'tb-artful-001.herokuapp.com' }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found)
